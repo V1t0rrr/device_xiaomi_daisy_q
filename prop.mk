@@ -22,7 +22,7 @@ persist.camera.eis.enable=1 \
 persist.camera.gyro.disable=0 \
 persist.camera.isp.clock.optmz=0 \
 persist.camera.stats.test=5 \
-persist.camera.HAL3.enabled=1 \
+persist.camera.HAL3.enabled=0 \
 persist.vendor.camera.CDS=off
 
 # Camera hal buffer management
