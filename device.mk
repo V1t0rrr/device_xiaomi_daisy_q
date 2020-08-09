@@ -79,6 +79,10 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# Device-Specific
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Properties
 -include device/xiaomi/daisy/prop.mk
 
