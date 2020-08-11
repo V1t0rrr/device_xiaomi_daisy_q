@@ -50,9 +50,15 @@ PRODUCT_PACKAGES += \
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service \
-    bootctrl.msm8953 \
+    android.hardware.boot@1.0-impl.recovery \
+    android.hardware.boot@1.0-service
 
+# Bootloader HAL used for A/B updates.
+PRODUCT_PACKAGES += \
+    bootctrl.msm8953 \
+    bootctrl.msm8953.recovery
+
+# Boot control debug
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
